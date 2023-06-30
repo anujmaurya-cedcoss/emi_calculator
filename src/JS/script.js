@@ -5,7 +5,7 @@ $(document).ready(function () {
         const period = $("#period").val();
 
         if (amount > 0 && interest >= 0 && period > 0) {
-            return amount * (1 + interest * period);
+            return amount * (1 + interest * period/100);
         } else {
             return -1;
         }
