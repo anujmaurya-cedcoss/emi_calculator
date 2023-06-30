@@ -11,8 +11,6 @@ $(document).ready(function () {
         }
     }
     $("#calculate").click(function () {
-
-        // a = p(1 + r*t), emi = a/t
         const period = $("#period").val();
         let total_amount = calculate();
         let emi = 1*total_amount / (12 * period);
