@@ -1,0 +1,16 @@
+.wrapper {
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+
+.wrapper__heading {
+    text-align: center;
+}
+input {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+button {
+    margin : 15px;
+}
